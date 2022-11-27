@@ -1,0 +1,134 @@
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+    box-sizing: border-box;
+}
+
+#image{
+    margin: 0 0 0 2.5em;
+  padding-bottom: 2em;
+}
+#signin{
+   width: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px 0;
+    background: #ff156A;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#entirecontainer{
+    margin-left: 5em;
+}
+.allinput{
+    background-color: #e6e6e6;
+    border: none;
+    width: 70%;
+    padding: 0.5em 0 0.5em 0;
+    text-align: left;
+}
+#singleinput{
+    background-color: #fcf9f9 ;
+    width: 90%;
+    text-align: center;
+    padding: 0.5em 0 0.5em;
+    border-color: #1E956E;
+    margin-left:3em;
+    margin-top: -0.5em;
+   
+}
+.forgotpassword{
+    margin-left: 10em;
+    color: #1E956E;
+}
+@media (min-width: 500px) {
+    #image,#signin,#entirecontainer,.allinput{
+        float: none;
+        text-align: center;
+        width: 70%;
+     }
+     #singleinput{
+        margin-left: -10em;
+        margin-top: 0.5em;
+     }
+     .forgotpassword{
+        margin-left: 7em;
+     }
+     
+   #signin{
+    width: 80px ;
+    position: absolute;
+    margin-left: 2em;
+   }
+}
+@media (min-width: 800px) {
+    #image,#entirecontainer,.allinput{
+        float: none;
+        width: 70%;
+        text-align: left;
+     }
+     #signin{
+        width: 100px ;
+        position: absolute;
+        margin-left: 40em;
+       }
+       #singleinput{
+        margin-left:5em;
+        margin-top: 0.5em;
+     }
+     .forgotpassword{
+        margin-left: 35em;
+     }
+
+}
